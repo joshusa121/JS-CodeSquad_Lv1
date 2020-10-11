@@ -11,7 +11,7 @@ var n2 = rawn2/100
 
 var bmi = n1/(n2*n2)
 if (bmi < 18.5  ) {
-    console.log("당신은 처제중 입니다.")
+    console.log("당신은 저체중 입니다.")
 } else if ( bmi < 23 ) {
     console.log("당신은 정상 입니다.")
 } else if ( bmi < 25 ) {
